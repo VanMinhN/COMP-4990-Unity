@@ -69,10 +69,15 @@ public class CarControlled : MonoBehaviour
         if (collision.collider.tag == "CollideWall")
         {
             print("YES! Successfully detect the collide wall!!");
-            Reset();
+            CarDeath();
+            //Reset();
         }
     }
 
+    private void CarDeath()
+    {
+        GameObject.FindObjectOfType<GeneticManager>().Death(overallFitness,network);
+    }
     private void FixedUpdate()
     {
         InputSensors();
@@ -96,21 +101,21 @@ public class CarControlled : MonoBehaviour
         //if the car is stuck then reset
         if(timing >20 && overallFitness < 40)
         {
-            Reset();
+            CarDeath();
         }
         
         if(overallFitness >= 1000)
         {
-            Reset();
+            CarDeath();
         }
 
     }
 
     private void InputSensors()
     {
-        Vector3 a = (transform.forward + transform.right);
-        Vector3 b = (transform.forward);
-        Vector3 c = (transform.forward - transform.right);
+        Vector3 a = (transform.forward + transform.right); //raycast forward to the right side
+        Vector3 b = (transform.forward); //raycast forward
+        Vector3 c = (transform.forward - transform.right); //raycast forward to the left side
 
         //Ray tracker
         Ray r = new Ray(transform.position, a);
@@ -135,7 +140,7 @@ public class CarControlled : MonoBehaviour
         {
             cSensor = hit.distance / 130;
             Debug.DrawLine(r.origin, hit.point, Color.red);
-            print("C: " + hit.distance);
+            print("C: " + hit.distance); //bring out the distance between the object and car
         }
 
     }
