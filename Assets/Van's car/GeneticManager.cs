@@ -105,7 +105,7 @@ public class GeneticManager : MonoBehaviour
             }
         }
     }
-
+	//Mutation a couple of weights, not everything
     Matrix<float> MutateMatrix(Matrix<float> A)
     { 
         int randomPoints = Random.Range(1, (A.RowCount * A.ColumnCount) / 7);
@@ -118,6 +118,7 @@ public class GeneticManager : MonoBehaviour
         }
         return C;
     }
+	
     private void Crossover(NeurolN[] newPopulation)
     {
         for (int i = 0; i < numberToCrossover; i += 2)

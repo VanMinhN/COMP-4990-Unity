@@ -82,6 +82,7 @@ public class NeurolN : MonoBehaviour
 
 		return n;
 	}
+	// initalize hidden layer
 	public void InitialiseHidden(int hiddenLayerCount, int hiddenNeuronCount)
 	{
 		inputLayer.Clear();
