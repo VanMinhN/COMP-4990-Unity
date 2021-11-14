@@ -55,6 +55,7 @@ public class CarControlled : MonoBehaviour
         //test code (Remove later on)
        // network.Initialise(Layers, neurons);
         //--------------------
+		//-----------------------
         timing = 0f;
         totalDistance = 0f;
         avgSpeed = 0f;
