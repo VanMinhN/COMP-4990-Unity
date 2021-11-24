@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CE743E2C-6B7B-2CE8-1C0F-9F148EF837BF}</ProjectGuid>
+    <ProjectGuid>{75EA2B26-039A-4BF5-8D7E-9222E23C7680}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MovingTesting.cs" />
     <Compile Include="Assets\CarMovement.cs" />
     <Compile Include="Assets\Van&apos;s car\CarControlled.cs" />
     <Compile Include="Assets\Minimap.cs" />

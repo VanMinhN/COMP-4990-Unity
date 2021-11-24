@@ -123,21 +123,21 @@ public class CarControlled : MonoBehaviour
         RaycastHit hit;
 
         //calculate distance between wall and car
-        if(Physics.Raycast(r,out hit))
+        if(Physics.Raycast(r,out hit,80))
         {
             aSensor = hit.distance / 130;
             Debug.DrawLine(r.origin,hit.point,Color.red);
             print("A: " + hit.distance);
         }
         r.direction = b;
-        if (Physics.Raycast(r, out hit))
+        if (Physics.Raycast(r, out hit, 80))
         {
             bSensor = hit.distance / 130;
             Debug.DrawLine(r.origin, hit.point, Color.red);
             print("B: " + hit.distance);
         }
         r.direction = c;
-        if (Physics.Raycast(r, out hit))
+        if (Physics.Raycast(r, out hit, 80))
         {
             cSensor = hit.distance / 130;
             Debug.DrawLine(r.origin, hit.point, Color.red);

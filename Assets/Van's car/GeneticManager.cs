@@ -225,20 +225,10 @@ public class GeneticManager : MonoBehaviour
         return newPopulation;
 
     }
-    private void SortPopulation()
-    {
-        for (int i = 0; i < population.Length; i++)
-        {
-            for (int j = i; j < population.Length; j++)
-            {
-                if (population[i].fitness < population[j].fitness)
-                {
-                    NeurolN temp = population[i];
-                    population[i] = population[j];
-                    population[j] = temp;
-                }
-            }
-        }
+    // Sort from highest [0] to lowest [InitialPopulation] fitness
 
+    void SortPopulation()
+    {
+        System.Array.Sort(population, delegate (NeurolN x, NeurolN y) { return y.fitness.CompareTo(x.fitness); });
     }
 }

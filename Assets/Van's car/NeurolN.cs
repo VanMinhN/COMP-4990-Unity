@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using MathNet.Numerics.LinearAlgebra;
 using System;
-using Random = UnityEngine.Random;
+
 
 
 public class NeurolN : MonoBehaviour
@@ -32,7 +31,7 @@ public class NeurolN : MonoBehaviour
 		{
 			Matrix<float> f = Matrix<float>.Build.Dense(1, hiddenNeurolCount);
 			hiddenLayer.Add(f);
-			biases.Add(Random.Range(-1f, 1f));
+			biases.Add(UnityEngine.Random.Range(-1f, 1f));
 			//Weights
 			if (i == 0)
 			{
@@ -45,7 +44,7 @@ public class NeurolN : MonoBehaviour
 		}
 		Matrix<float> OutputWeight = Matrix<float>.Build.Dense(hiddenNeurolCount, 2);
 		weights.Add(OutputWeight);
-		biases.Add(Random.Range(-1f, 1f));
+		biases.Add(UnityEngine.Random.Range(-1f, 1f));
 
 		RandomizeWeights();
 	}
@@ -105,7 +104,7 @@ public class NeurolN : MonoBehaviour
 			{
 				for (int k = 0; k < weights[i].ColumnCount; k++)
 				{
-					weights[i][j, k] = Random.Range(-1f, 1f);
+					weights[i][j, k] = UnityEngine.Random.Range(-1f, 1f);
 				}
 			}
 		}

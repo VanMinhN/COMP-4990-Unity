@@ -14,8 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/MovingTesting.cs
+    - Assets/MovingTesting.cs.meta
+    - Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 4.fbx
+    - Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 4.fbx.meta
+    - Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 5.fbx
+    - Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 5.fbx.meta
+    - Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 6.fbx
+    - Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 6.fbx.meta
+    - Assets/ProBuilder Data.meta
+    - Assets/ProBuilder Data/Default Material Palette.asset
+    - Assets/ProBuilder Data/Default Material Palette.asset.meta
+    - Assets/Simple city plain/scene/Demo Scene.unity
+    - Assets/Van's car/CarControlled.cs
+    - Assets/Van's car/GeneticManager.cs
+    - Assets/Van's car/NeurolN.cs
+    - Assets/Van's car/WallTesting.prefab
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/TimeManager.asset
     - 
-    m_Values: 01
+    m_Values: 00000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
