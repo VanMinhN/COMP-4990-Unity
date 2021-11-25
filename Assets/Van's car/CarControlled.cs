@@ -69,7 +69,7 @@ public class CarControlled : MonoBehaviour
     {
         if (collision.collider.tag == "CollideWall")
         {
-            print("YES! Successfully detect the collide wall!!");
+           // print("YES! Successfully detect the collide wall!!");
             CarDeath();
             //Reset();
         }
@@ -127,21 +127,21 @@ public class CarControlled : MonoBehaviour
         {
             aSensor = hit.distance / 130;
             Debug.DrawLine(r.origin,hit.point,Color.red);
-            print("A: " + hit.distance);
+           // print("A: " + hit.distance);
         }
         r.direction = b;
         if (Physics.Raycast(r, out hit, 80))
         {
             bSensor = hit.distance / 130;
             Debug.DrawLine(r.origin, hit.point, Color.red);
-            print("B: " + hit.distance);
+           // print("B: " + hit.distance);
         }
         r.direction = c;
         if (Physics.Raycast(r, out hit, 80))
         {
             cSensor = hit.distance / 130;
             Debug.DrawLine(r.origin, hit.point, Color.red);
-            print("C: " + hit.distance); //bring out the distance between the object and car
+           // print("C: " + hit.distance); //bring out the distance between the object and car
         }
 
     }
