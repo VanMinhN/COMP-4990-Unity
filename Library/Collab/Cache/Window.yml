@@ -31,9 +31,10 @@ MonoBehaviour:
     - Assets/Van's car/NeurolN.cs
     - Assets/Van's car/WallTesting.prefab
     - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
     - ProjectSettings/TimeManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
