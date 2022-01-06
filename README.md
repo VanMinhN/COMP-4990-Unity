@@ -14,3 +14,11 @@ Press play!
 The vehicle will now attempt to complete the track on its own. If it collides with an object such as sidewalk, it will be reset to its starting position. The vehicle will try to avoid any previous collisions. 
 
 Note: Stopping the simulation will cause the neural network to be reset. Pausing is fine.
+
+DEMO:
+
+First track:
+https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_track1.gif
+
+Second Track:
+https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_Track2.gif
