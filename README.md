@@ -21,4 +21,4 @@ First track:
 https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_track1.gif
 
 Second Track:
-https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_Track2.gif
+![Completed_Track2](https://user-images.githubusercontent.com/57197455/148327990-81d32373-d1eb-497a-a4b2-409c5eda18e2.gif)
