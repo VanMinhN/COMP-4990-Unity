@@ -19,9 +19,9 @@ DEMO:
 
 First track:
 
-<img src="https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_track1.gif?raw=true" width="350" title="hover text">
+<img src="https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_track1.gif?raw=true" width="350" title="Completed Track 1">
 
 
 Second Track:
 
-<img src="https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_Track2.gif" width="350" title="hover text">
+<img src="https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_Track2.gif" width="350" title="Completed Track 2">
