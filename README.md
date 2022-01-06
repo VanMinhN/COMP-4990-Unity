@@ -18,7 +18,9 @@ Note: Stopping the simulation will cause the neural network to be reset. Pausing
 DEMO:
 
 First track:
-https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_track1.gif?raw=true
+
+<img src="https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_track1.gif?raw=true" width="350" title="hover text">
+
 
 Second Track:
 
