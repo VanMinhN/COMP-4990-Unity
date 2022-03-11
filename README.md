@@ -1,8 +1,17 @@
 # COMP-4990-Unity
-To install the project, import the project files from Github into Unity (or create a new project with our files). 
 
-To run our project: 
+About
+-----
+This project is aim to create an simulation of autonomous vehicles using Unity Engine and asset store. Follow the project link for more description on the project itself. This is an four member group project for the fourth year of project course COMP 4990.<br>
+Have fun playing around with the simulation!
 
+Installation
+------------
+To install the project, import the project files from Github into Unity (or create a new project with our files). <br>
+Note: Please use Unity version 2020.3.24f1
+
+To run our project 
+------------------
 Access the scene: /Assets/Scenes/Demo Scene.unity.  
 
 Place the vehicle somewhere on the track with walls if it is not already placed. 
@@ -15,8 +24,8 @@ The vehicle will now attempt to complete the track on its own. If it collides wi
 
 Note: Stopping the simulation will cause the neural network to be reset. Pausing is fine.
 
-DEMO:
-
+DEMO
+----
 First track:
 
 <img src="https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_track1.gif?raw=true" width="350" title="Completed Track 1">
