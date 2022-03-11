@@ -12,6 +12,11 @@ Note: Please use Unity version 2020.3.24f1
 
 To run our project 
 ------------------
+
+Clone the project: ``git clone https://github.com/VanMinhN/COMP-4990-Unity.git``
+
+Open this project with Unity version 2020.3.24f1
+
 Access the scene: /Assets/Scenes/Demo Scene.unity.  
 
 Place the vehicle somewhere on the track with walls if it is not already placed. 
