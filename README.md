@@ -17,7 +17,7 @@ Clone the project: ``git clone https://github.com/VanMinhN/COMP-4990-Unity.git``
 
 Open this project with Unity version 2020.3.24f1.
 
-Access the scene: /Assets/Scenes/Demo Scene.unity.  
+Access the scene: Open the Project folder with Unity Hub, then open up the scene in /Assets/Scenes/Demo Scene.unity.  
 
 Place the vehicle somewhere on the track with walls if it is not already placed. 
 
