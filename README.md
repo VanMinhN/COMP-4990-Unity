@@ -47,7 +47,8 @@ Neurol Network: https://towardsdatascience.com/a-gentle-introduction-to-neural-n
 
 Genetic Algorithm: 
 https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3 <br> 
-https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f 
+
+Genetic Algorithm: https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f 
 <br>
 
 Matrices Math:
