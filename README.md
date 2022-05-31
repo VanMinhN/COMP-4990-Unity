@@ -39,3 +39,16 @@ First track:
 Second Track:
 
 <img src="https://github.com/SarhillH/COMP-4990-Unity/blob/main/Assets/img/Completed_Track2.gif" width="350" title="Completed Track 2">
+
+RESOURCES
+-----
+
+Neurol Network: https://towardsdatascience.com/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc <br>
+
+Genetic Algorithm: 
+https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3 <br> 
+https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f 
+<br>
+
+Matrices Math:
+https://en.wikipedia.org/wiki/Matrix_multiplication <br>
