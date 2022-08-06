@@ -1,5 +1,7 @@
 # COMP-4990-Unity
-
+![](https://img.shields.io/badge/C%23-100%25-success)
+<br>
+<br>
 About
 -----
 This project is aim to create an simulation of autonomous vehicles using Unity Engine and asset store. Follow the project link for more description on the project itself. This is an four member group project for the fourth year of project course COMP 4990.<br>
